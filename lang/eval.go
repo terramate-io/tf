@@ -12,11 +12,11 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/instances"
-	"github.com/hashicorp/terraform/lang/blocktoattr"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/instances"
+	"github.com/terramate-io/tf/lang/blocktoattr"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // ExpandBlock expands any "dynamic" blocks present in the given body. The

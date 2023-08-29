@@ -13,9 +13,9 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/modsdir"
 	"github.com/spf13/afero"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/modsdir"
 )
 
 // LoadConfigWithSnapshot is a variant of LoadConfig that also simultaneously

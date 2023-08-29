@@ -19,15 +19,15 @@ import (
 
 	"github.com/hashicorp/go-version"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/depsfile"
-	"github.com/hashicorp/terraform/getproviders"
-	"github.com/hashicorp/terraform/providercache"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/depsfile"
+	"github.com/terramate-io/tf/getproviders"
+	"github.com/terramate-io/tf/providercache"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/states/statemgr"
 )
 
 func TestInit_empty(t *testing.T) {
@@ -105,7 +105,7 @@ func TestInit_fromModule_cwdDest(t *testing.T) {
 	}
 }
 
-// https://github.com/hashicorp/terraform/issues/518
+// https://github.com/terramate-io/tf/issues/518
 func TestInit_fromModule_dstInSrc(t *testing.T) {
 	dir := t.TempDir()
 	if err := os.MkdirAll(dir, 0755); err != nil {

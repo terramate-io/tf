@@ -9,9 +9,9 @@ import (
 	"github.com/hashicorp/hcl/v2/hclwrite"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // GenerateResourceContents generates HCL configuration code for the provided

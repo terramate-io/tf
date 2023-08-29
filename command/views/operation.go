@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/format"
-	"github.com/hashicorp/terraform/command/jsonformat"
-	"github.com/hashicorp/terraform/command/jsonplan"
-	"github.com/hashicorp/terraform/command/jsonprovider"
-	"github.com/hashicorp/terraform/command/views/json"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/format"
+	"github.com/terramate-io/tf/command/jsonformat"
+	"github.com/terramate-io/tf/command/jsonplan"
+	"github.com/terramate-io/tf/command/jsonprovider"
+	"github.com/terramate-io/tf/command/views/json"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 type Operation interface {

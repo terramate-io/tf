@@ -9,9 +9,9 @@ import (
 
 	"github.com/hashicorp/hcl"
 	hclast "github.com/hashicorp/hcl/hcl/ast"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/getproviders"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/getproviders"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // ProviderInstallation is the structure of the "provider_installation"

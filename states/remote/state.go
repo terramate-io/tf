@@ -11,11 +11,11 @@ import (
 
 	uuid "github.com/hashicorp/go-uuid"
 
-	"github.com/hashicorp/terraform/backend/local"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/terramate-io/tf/backend/local"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/terraform"
 )
 
 // State implements the State interfaces in the state package to handle

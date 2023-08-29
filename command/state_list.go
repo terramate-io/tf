@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/mitchellh/cli"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // StateListCommand is a Command implementation that lists the resources

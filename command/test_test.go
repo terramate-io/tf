@@ -9,11 +9,11 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	testing_command "github.com/hashicorp/terraform/command/testing"
-	"github.com/hashicorp/terraform/command/views"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/terminal"
+	"github.com/terramate-io/tf/addrs"
+	testing_command "github.com/terramate-io/tf/command/testing"
+	"github.com/terramate-io/tf/command/views"
+	"github.com/terramate-io/tf/providers"
+	"github.com/terramate-io/tf/terminal"
 )
 
 func TestTest(t *testing.T) {

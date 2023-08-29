@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/e2e"
-	"github.com/hashicorp/terraform/plans"
+	"github.com/terramate-io/tf/e2e"
+	"github.com/terramate-io/tf/plans"
 )
 
 // The tests in this file run through different scenarios recommended in our

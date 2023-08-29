@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 )
 
 func TestDiffEmpty(t *testing.T) {

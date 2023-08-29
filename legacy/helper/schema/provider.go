@@ -11,8 +11,8 @@ import (
 	"sync"
 
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/legacy/terraform"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/legacy/terraform"
 )
 
 var ReservedProviderFields = []string{

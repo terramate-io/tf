@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/hashicorp/terraform/states"
+	"github.com/terramate-io/tf/states"
 )
 
 // MarshalCheckStates is the main entry-point for this package, which takes

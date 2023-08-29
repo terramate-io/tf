@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/states/statemgr"
 )
 
 // StatePullCommand is a Command implementation that shows a single resource.

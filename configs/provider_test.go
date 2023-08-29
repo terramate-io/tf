@@ -10,7 +10,7 @@ import (
 	"github.com/go-test/deep"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 )
 
 func TestProviderReservedNames(t *testing.T) {

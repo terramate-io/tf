@@ -10,16 +10,16 @@ import (
 	"github.com/mitchellh/colorstring"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/command/format"
-	"github.com/hashicorp/terraform/command/jsonformat/computed"
-	"github.com/hashicorp/terraform/command/jsonformat/differ"
-	"github.com/hashicorp/terraform/command/jsonformat/structured"
-	"github.com/hashicorp/terraform/command/jsonplan"
-	"github.com/hashicorp/terraform/command/jsonprovider"
-	"github.com/hashicorp/terraform/command/jsonstate"
-	viewsjson "github.com/hashicorp/terraform/command/views/json"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/terminal"
+	"github.com/terramate-io/tf/command/format"
+	"github.com/terramate-io/tf/command/jsonformat/computed"
+	"github.com/terramate-io/tf/command/jsonformat/differ"
+	"github.com/terramate-io/tf/command/jsonformat/structured"
+	"github.com/terramate-io/tf/command/jsonplan"
+	"github.com/terramate-io/tf/command/jsonprovider"
+	"github.com/terramate-io/tf/command/jsonstate"
+	viewsjson "github.com/terramate-io/tf/command/views/json"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/terminal"
 )
 
 type JSONLogType string

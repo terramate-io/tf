@@ -9,8 +9,8 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/lang"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/lang"
 )
 
 // CheckRule represents a configuration-defined validation rule, precondition,

@@ -21,14 +21,14 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/providers"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 func TestApply(t *testing.T) {

@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/terramate-io/tf/states/statemgr"
 
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/mitchellh/cli"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // UnlockCommand is a cli.Command implementation that manually unlocks

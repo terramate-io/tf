@@ -10,7 +10,7 @@ import (
 
 	svchost "github.com/hashicorp/terraform-svchost"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 )
 
 // MultiSource is a Source that wraps a series of other sources and combines

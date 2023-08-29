@@ -7,8 +7,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs/configschema"
 )
 
 func TestConfigGeneration(t *testing.T) {

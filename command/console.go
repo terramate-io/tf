@@ -9,12 +9,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/repl"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/repl"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 
 	"github.com/mitchellh/cli"
 )

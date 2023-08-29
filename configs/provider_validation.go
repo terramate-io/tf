@@ -10,7 +10,7 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 )
 
 // validateProviderConfigsForTests performs the same role as

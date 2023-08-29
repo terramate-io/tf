@@ -11,9 +11,9 @@ import (
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	hcljson "github.com/hashicorp/hcl/v2/json"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/lang"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/lang"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // Resource represents a "resource" or "data" block in a module or file.

@@ -7,16 +7,16 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/moduletest"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terminal"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/moduletest"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/providers"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/terminal"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 func TestTestHuman_Conclusion(t *testing.T) {

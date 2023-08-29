@@ -4,8 +4,8 @@
 package states
 
 import (
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/checks"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/checks"
 )
 
 // CheckResults represents a summary snapshot of the status of a set of checks

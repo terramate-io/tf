@@ -18,12 +18,12 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/google/go-cmp/cmp"
 	awsbase "github.com/hashicorp/aws-sdk-go-base"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/configs/hcl2shim"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/remote"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/configs/hcl2shim"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/remote"
+	"github.com/terramate-io/tf/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

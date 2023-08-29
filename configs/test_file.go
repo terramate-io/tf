@@ -6,9 +6,9 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/gohcl"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/getmodules"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/getmodules"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // TestCommand represents the Terraform a given run block will execute, plan

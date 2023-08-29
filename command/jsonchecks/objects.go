@@ -6,7 +6,7 @@ package jsonchecks
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 )
 
 type staticObjectAddr map[string]interface{}

@@ -9,9 +9,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/initwd"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs/configload"
+	"github.com/terramate-io/tf/initwd"
 )
 
 func TestChecksHappyPath(t *testing.T) {

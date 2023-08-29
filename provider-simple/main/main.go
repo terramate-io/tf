@@ -4,10 +4,10 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/grpcwrap"
-	"github.com/hashicorp/terraform/plugin"
-	simple "github.com/hashicorp/terraform/provider-simple"
-	"github.com/hashicorp/terraform/tfplugin5"
+	"github.com/terramate-io/tf/grpcwrap"
+	"github.com/terramate-io/tf/plugin"
+	simple "github.com/terramate-io/tf/provider-simple"
+	"github.com/terramate-io/tf/tfplugin5"
 )
 
 func main() {

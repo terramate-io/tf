@@ -13,16 +13,16 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/command/jsonchecks"
-	"github.com/hashicorp/terraform/command/jsonconfig"
-	"github.com/hashicorp/terraform/command/jsonstate"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/command/jsonchecks"
+	"github.com/terramate-io/tf/command/jsonconfig"
+	"github.com/terramate-io/tf/command/jsonstate"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/version"
 )
 
 // FormatVersion represents the version of the json format and will be

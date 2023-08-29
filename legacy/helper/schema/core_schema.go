@@ -6,7 +6,7 @@ package schema
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/terramate-io/tf/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

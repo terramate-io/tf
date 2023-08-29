@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hashicorp/terraform/e2e"
+	"github.com/terramate-io/tf/e2e"
 )
 
 func TestTerraformProviderRead(t *testing.T) {

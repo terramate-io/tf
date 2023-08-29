@@ -4,8 +4,8 @@
 package providers
 
 import (
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs/configschema"
 )
 
 // ProviderSchema is an overall container for all of the schemas for all

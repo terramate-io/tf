@@ -14,9 +14,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/configs/hcl2shim"
-	"github.com/hashicorp/terraform/legacy/helper/hashcode"
-	"github.com/hashicorp/terraform/legacy/terraform"
+	"github.com/terramate-io/tf/configs/hcl2shim"
+	"github.com/terramate-io/tf/legacy/helper/hashcode"
+	"github.com/terramate-io/tf/legacy/terraform"
 )
 
 func TestEnvDefaultFunc(t *testing.T) {
@@ -1951,7 +1951,7 @@ func TestSchemaMap_Diff(t *testing.T) {
 		},
 
 		{
-			Name: "https://github.com/hashicorp/terraform/issues/824",
+			Name: "https://github.com/terramate-io/tf/issues/824",
 			Schema: map[string]*Schema{
 				"block_device": &Schema{
 					Type:     TypeSet,

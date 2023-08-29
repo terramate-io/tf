@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/providers"
-	proto "github.com/hashicorp/terraform/tfplugin6"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/providers"
+	proto "github.com/terramate-io/tf/tfplugin6"
 	"github.com/zclconf/go-cty/cty"
 )
 

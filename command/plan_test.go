@@ -19,15 +19,15 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	backendinit "github.com/hashicorp/terraform/backend/init"
-	"github.com/hashicorp/terraform/checks"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	backendinit "github.com/terramate-io/tf/backend/init"
+	"github.com/terramate-io/tf/checks"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/providers"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 func TestPlan(t *testing.T) {
@@ -790,7 +790,7 @@ func TestPlan_varsUnset(t *testing.T) {
 	// default value and there are no -var arguments on our command line.
 
 	// This will (helpfully) panic if more than one variable is requested during plan:
-	// https://github.com/hashicorp/terraform/issues/26027
+	// https://github.com/terramate-io/tf/issues/26027
 	close := testInteractiveInput(t, []string{"bar"})
 	defer close()
 
@@ -813,7 +813,7 @@ func TestPlan_varsUnset(t *testing.T) {
 
 // This test adds a required argument to the test provider to validate
 // processing of user input:
-// https://github.com/hashicorp/terraform/issues/26035
+// https://github.com/terramate-io/tf/issues/26035
 func TestPlan_providerArgumentUnset(t *testing.T) {
 	// Create a temporary working directory that is empty
 	td := t.TempDir()
@@ -893,7 +893,7 @@ func TestPlan_providerArgumentUnset(t *testing.T) {
 
 // Test that terraform properly merges provider configuration that's split
 // between config files and interactive input variables.
-// https://github.com/hashicorp/terraform/issues/28956
+// https://github.com/terramate-io/tf/issues/28956
 func TestPlan_providerConfigMerge(t *testing.T) {
 	td := t.TempDir()
 	testCopyDir(t, testFixturePath("plan-provider-input"), td)

@@ -10,8 +10,8 @@ import (
 	"github.com/hashicorp/hcl/v2/gohcl"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/getmodules"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/getmodules"
 )
 
 // ModuleCall represents a "module" block in a module or file.

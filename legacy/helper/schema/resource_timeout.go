@@ -8,9 +8,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/hashicorp/terraform/configs/hcl2shim"
-	"github.com/hashicorp/terraform/legacy/terraform"
 	"github.com/mitchellh/copystructure"
+	"github.com/terramate-io/tf/configs/hcl2shim"
+	"github.com/terramate-io/tf/legacy/terraform"
 )
 
 const TimeoutKey = "e2bfb730-ecaa-11e6-8f88-34363bc7c4c0"

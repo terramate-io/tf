@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/terraform/lang/marks"
+	"github.com/terramate-io/tf/lang/marks"
 	"github.com/zclconf/go-cty/cty"
 )
 

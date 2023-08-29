@@ -4,7 +4,7 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/version"
 )
 
 // Deprecated: Providers should use schema.Provider.TerraformVersion instead

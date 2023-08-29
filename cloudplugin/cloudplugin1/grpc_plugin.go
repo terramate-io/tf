@@ -6,8 +6,8 @@ import (
 	"net/rpc"
 
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/terraform/cloudplugin"
-	"github.com/hashicorp/terraform/cloudplugin/cloudproto1"
+	"github.com/terramate-io/tf/cloudplugin"
+	"github.com/terramate-io/tf/cloudplugin/cloudproto1"
 	"google.golang.org/grpc"
 )
 

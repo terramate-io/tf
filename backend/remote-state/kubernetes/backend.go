@@ -11,10 +11,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/legacy/helper/schema"
-	"github.com/hashicorp/terraform/version"
 	"github.com/mitchellh/go-homedir"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/legacy/helper/schema"
+	"github.com/terramate-io/tf/version"
 	k8sSchema "k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/dynamic"
 	"k8s.io/client-go/kubernetes"

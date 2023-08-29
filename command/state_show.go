@@ -8,15 +8,15 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/jsonformat"
-	"github.com/hashicorp/terraform/command/jsonprovider"
-	"github.com/hashicorp/terraform/command/jsonstate"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
 	"github.com/mitchellh/cli"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/jsonformat"
+	"github.com/terramate-io/tf/command/jsonprovider"
+	"github.com/terramate-io/tf/command/jsonstate"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statefile"
 )
 
 // StateShowCommand is a Command implementation that shows a single resource.

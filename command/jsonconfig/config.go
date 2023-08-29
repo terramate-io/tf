@@ -11,11 +11,11 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/getproviders"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/getproviders"
+	"github.com/terramate-io/tf/terraform"
 )
 
 // Config represents the complete configuration source

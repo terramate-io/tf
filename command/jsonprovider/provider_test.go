@@ -11,8 +11,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/providers"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/providers"
 )
 
 func TestMarshalProvider(t *testing.T) {

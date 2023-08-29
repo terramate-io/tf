@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/providers"
 	"github.com/mitchellh/cli"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/providers"
 	"github.com/zclconf/go-cty/cty"
 )
 

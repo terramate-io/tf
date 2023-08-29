@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/backend/remote-state/inmem"
-	"github.com/hashicorp/terraform/states"
 	"github.com/mitchellh/cli"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/backend/remote-state/inmem"
+	"github.com/terramate-io/tf/states"
 )
 
 func TestStatePush_empty(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/terraform"
 )
 
 // NewFullFake returns a full state manager that really only supports transient

@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/getproviders"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/getproviders"
 )
 
 // Dir represents a single local filesystem directory containing cached

@@ -6,8 +6,8 @@ package plans
 import (
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/states"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/states"
 )
 
 // Changes describes various actions that Terraform will attempt to take if

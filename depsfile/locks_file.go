@@ -14,11 +14,11 @@ import (
 	"github.com/hashicorp/hcl/v2/hclwrite"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/getproviders"
-	"github.com/hashicorp/terraform/replacefile"
-	"github.com/hashicorp/terraform/tfdiags"
-	"github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/getproviders"
+	"github.com/terramate-io/tf/replacefile"
+	"github.com/terramate-io/tf/tfdiags"
+	"github.com/terramate-io/tf/version"
 )
 
 // LoadLocksFromFile reads locks from the given file, expecting it to be a

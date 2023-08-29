@@ -12,15 +12,15 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/version"
 	"github.com/mitchellh/cli"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/providers"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/version"
 	"github.com/zclconf/go-cty/cty"
 )
 
@@ -126,7 +126,7 @@ func TestShow_argsWithState(t *testing.T) {
 	}
 }
 
-// https://github.com/hashicorp/terraform/issues/21462
+// https://github.com/terramate-io/tf/issues/21462
 func TestShow_argsWithStateAliasedProvider(t *testing.T) {
 	// Create the default state with aliased resource
 	testState := states.BuildState(func(s *states.SyncState) {

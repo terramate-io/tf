@@ -9,8 +9,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/hashicorp/terraform/tfdiags"
-	proto "github.com/hashicorp/terraform/tfplugin6"
+	"github.com/terramate-io/tf/tfdiags"
+	proto "github.com/terramate-io/tf/tfplugin6"
 	"github.com/zclconf/go-cty/cty"
 )
 

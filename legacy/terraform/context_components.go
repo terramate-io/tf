@@ -6,9 +6,9 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/provisioners"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/providers"
+	"github.com/terramate-io/tf/provisioners"
 )
 
 // contextComponentFactory is the interface that Context uses

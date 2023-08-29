@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/plans/planfile"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/dag"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/plans/planfile"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // GraphCommand is a Command implementation that takes a Terraform

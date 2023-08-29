@@ -6,7 +6,7 @@ package providers
 import (
 	"sort"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 )
 
 // AddressedTypesAbs is a helper that extracts all of the distinct provider

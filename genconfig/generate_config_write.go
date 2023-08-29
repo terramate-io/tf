@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 func ShouldWriteConfig(out string) bool {

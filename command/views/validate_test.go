@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/terminal"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/terminal"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 func TestValidateHuman(t *testing.T) {

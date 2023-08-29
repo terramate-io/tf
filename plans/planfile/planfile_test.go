@@ -10,14 +10,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/depsfile"
-	"github.com/hashicorp/terraform/getproviders"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	tfversion "github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs/configload"
+	"github.com/terramate-io/tf/depsfile"
+	"github.com/terramate-io/tf/getproviders"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statefile"
+	tfversion "github.com/terramate-io/tf/version"
 )
 
 func TestRoundtrip(t *testing.T) {

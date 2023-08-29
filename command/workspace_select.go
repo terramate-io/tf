@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/mitchellh/cli"
 	"github.com/posener/complete"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 type WorkspaceSelectCommand struct {

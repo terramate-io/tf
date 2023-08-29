@@ -6,11 +6,11 @@ package views
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/views/json"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/views/json"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // The Refresh view is used for the refresh command.

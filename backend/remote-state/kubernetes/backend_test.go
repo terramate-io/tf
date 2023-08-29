@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/states/statemgr"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

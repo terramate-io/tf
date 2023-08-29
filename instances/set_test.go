@@ -6,7 +6,7 @@ package instances
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/hashicorp/terraform/plans/planfile"
+	"github.com/terramate-io/tf/plans/planfile"
 )
 
 // NOTE: Temporary file until this branch is cleaned up.

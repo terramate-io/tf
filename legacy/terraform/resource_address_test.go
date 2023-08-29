@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs"
 )
 
 func TestParseResourceAddressInternal(t *testing.T) {

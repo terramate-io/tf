@@ -6,10 +6,10 @@ package lang
 import (
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/lang/blocktoattr"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/lang/blocktoattr"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // References finds all of the references in the given set of traversals,

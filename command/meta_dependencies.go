@@ -7,8 +7,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/hashicorp/terraform/depsfile"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/depsfile"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // dependenclyLockFilename is the filename of the dependency lock file.

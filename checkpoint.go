@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 
 	"github.com/hashicorp/go-checkpoint"
-	"github.com/hashicorp/terraform/command"
-	"github.com/hashicorp/terraform/command/cliconfig"
+	"github.com/terramate-io/tf/command"
+	"github.com/terramate-io/tf/command/cliconfig"
 	"go.opentelemetry.io/otel/codes"
 )
 

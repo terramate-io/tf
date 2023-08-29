@@ -4,12 +4,12 @@
 package jsonformat
 
 import (
-	"github.com/hashicorp/terraform/command/jsonformat/computed"
-	"github.com/hashicorp/terraform/command/jsonformat/differ"
-	"github.com/hashicorp/terraform/command/jsonformat/structured"
-	"github.com/hashicorp/terraform/command/jsonformat/structured/attribute_path"
-	"github.com/hashicorp/terraform/command/jsonplan"
-	"github.com/hashicorp/terraform/plans"
+	"github.com/terramate-io/tf/command/jsonformat/computed"
+	"github.com/terramate-io/tf/command/jsonformat/differ"
+	"github.com/terramate-io/tf/command/jsonformat/structured"
+	"github.com/terramate-io/tf/command/jsonformat/structured/attribute_path"
+	"github.com/terramate-io/tf/command/jsonplan"
+	"github.com/terramate-io/tf/plans"
 )
 
 func precomputeDiffs(plan Plan, mode plans.Mode) diffs {

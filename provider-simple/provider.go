@@ -8,8 +8,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/providers"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/providers"
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 )

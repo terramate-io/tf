@@ -7,12 +7,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/configs/hcl2shim"
-	"github.com/hashicorp/terraform/legacy/terraform"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/configs/hcl2shim"
+	"github.com/terramate-io/tf/legacy/terraform"
 	ctyconvert "github.com/zclconf/go-cty/cty/convert"
 )
 

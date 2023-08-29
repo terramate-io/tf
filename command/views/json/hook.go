@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/plans"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/plans"
 )
 
 type Hook interface {

@@ -19,19 +19,19 @@ import (
 	version "github.com/hashicorp/go-version"
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/logging"
-	"github.com/hashicorp/terraform/states/remote"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
-	tfversion "github.com/hashicorp/terraform/version"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/logging"
+	"github.com/terramate-io/tf/states/remote"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
+	tfversion "github.com/terramate-io/tf/version"
 	"github.com/zclconf/go-cty/cty"
 
-	backendLocal "github.com/hashicorp/terraform/backend/local"
+	backendLocal "github.com/terramate-io/tf/backend/local"
 )
 
 const (

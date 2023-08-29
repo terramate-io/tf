@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/e2e"
-	"github.com/hashicorp/terraform/getproviders"
+	"github.com/terramate-io/tf/e2e"
+	"github.com/terramate-io/tf/getproviders"
 )
 
 // TestProviderTampering tests various ways that the provider plugins in the

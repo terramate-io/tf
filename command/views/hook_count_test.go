@@ -9,12 +9,12 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/terraform"
 
-	legacy "github.com/hashicorp/terraform/legacy/terraform"
+	legacy "github.com/terramate-io/tf/legacy/terraform"
 )
 
 func TestCountHook_impl(t *testing.T) {

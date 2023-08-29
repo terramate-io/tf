@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 func TestParseShow_valid(t *testing.T) {

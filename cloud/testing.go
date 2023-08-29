@@ -25,18 +25,18 @@ import (
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/httpclient"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
-	"github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/httpclient"
+	"github.com/terramate-io/tf/providers"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
+	"github.com/terramate-io/tf/version"
 
-	backendLocal "github.com/hashicorp/terraform/backend/local"
+	backendLocal "github.com/terramate-io/tf/backend/local"
 )
 
 const (

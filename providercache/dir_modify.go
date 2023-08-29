@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hashicorp/terraform/getproviders"
+	"github.com/terramate-io/tf/getproviders"
 )
 
 // InstallPackage takes a metadata object describing a package available for

@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/terraform"
 )
 
 // StateHook is a hook that continuously updates the state by calling

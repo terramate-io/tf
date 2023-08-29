@@ -7,11 +7,11 @@ import (
 	"encoding/json"
 	"reflect"
 
-	"github.com/hashicorp/terraform/command/jsonformat/structured/attribute_path"
-	"github.com/hashicorp/terraform/command/jsonplan"
-	"github.com/hashicorp/terraform/command/jsonstate"
-	viewsjson "github.com/hashicorp/terraform/command/views/json"
-	"github.com/hashicorp/terraform/plans"
+	"github.com/terramate-io/tf/command/jsonformat/structured/attribute_path"
+	"github.com/terramate-io/tf/command/jsonplan"
+	"github.com/terramate-io/tf/command/jsonstate"
+	viewsjson "github.com/terramate-io/tf/command/views/json"
+	"github.com/terramate-io/tf/plans"
 )
 
 // Change contains the unmarshalled generic interface{} types that are output by

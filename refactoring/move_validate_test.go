@@ -12,13 +12,13 @@ import (
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/zclconf/go-cty/cty/gocty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/initwd"
-	"github.com/hashicorp/terraform/instances"
-	"github.com/hashicorp/terraform/registry"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/configs/configload"
+	"github.com/terramate-io/tf/initwd"
+	"github.com/terramate-io/tf/instances"
+	"github.com/terramate-io/tf/registry"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 func TestValidateMoves(t *testing.T) {

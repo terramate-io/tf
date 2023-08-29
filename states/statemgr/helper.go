@@ -7,10 +7,10 @@ package statemgr
 // operations done against full state managers.
 
 import (
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/version"
 )
 
 // NewStateFile creates a new statefile.File object, with a newly-minted

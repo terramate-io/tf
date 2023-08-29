@@ -10,9 +10,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/legacy/helper/schema"
 	"github.com/lib/pq"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/legacy/helper/schema"
 )
 
 const (

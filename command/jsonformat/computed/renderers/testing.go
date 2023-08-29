@@ -9,8 +9,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/hashicorp/terraform/command/jsonformat/computed"
-	"github.com/hashicorp/terraform/plans"
+	"github.com/terramate-io/tf/command/jsonformat/computed"
+	"github.com/terramate-io/tf/plans"
 )
 
 type ValidateDiffFunction func(t *testing.T, diff computed.Diff)

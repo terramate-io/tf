@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	svchost "github.com/hashicorp/terraform-svchost"
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 )
 
 func TestMissingProviderSuggestion(t *testing.T) {

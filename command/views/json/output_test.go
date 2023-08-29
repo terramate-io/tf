@@ -8,10 +8,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/lang/marks"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/lang/marks"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states"
 	"github.com/zclconf/go-cty/cty"
 )
 

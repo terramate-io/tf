@@ -19,8 +19,8 @@ import (
 	uuid "github.com/hashicorp/go-uuid"
 	"github.com/pkg/errors"
 
-	"github.com/hashicorp/terraform/states/remote"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/terramate-io/tf/states/remote"
+	"github.com/terramate-io/tf/states/statemgr"
 )
 
 const (

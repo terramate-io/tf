@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/command/format"
+	"github.com/terramate-io/tf/command/format"
 
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
-	"github.com/hashicorp/terraform/command/jsonformat/computed"
-	"github.com/hashicorp/terraform/plans"
+	"github.com/terramate-io/tf/command/jsonformat/computed"
+	"github.com/terramate-io/tf/plans"
 )
 
 // NoWarningsRenderer defines a Warnings function that returns an empty list of

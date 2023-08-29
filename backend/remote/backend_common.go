@@ -15,10 +15,10 @@ import (
 	"time"
 
 	tfe "github.com/hashicorp/go-tfe"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/logging"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/logging"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/terraform"
 )
 
 var (

@@ -6,12 +6,12 @@ package differ
 import (
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/command/jsonformat/collections"
-	"github.com/hashicorp/terraform/command/jsonformat/computed"
-	"github.com/hashicorp/terraform/command/jsonformat/computed/renderers"
-	"github.com/hashicorp/terraform/command/jsonformat/structured"
-	"github.com/hashicorp/terraform/command/jsonprovider"
-	"github.com/hashicorp/terraform/plans"
+	"github.com/terramate-io/tf/command/jsonformat/collections"
+	"github.com/terramate-io/tf/command/jsonformat/computed"
+	"github.com/terramate-io/tf/command/jsonformat/computed/renderers"
+	"github.com/terramate-io/tf/command/jsonformat/structured"
+	"github.com/terramate-io/tf/command/jsonprovider"
+	"github.com/terramate-io/tf/plans"
 )
 
 func computeAttributeDiffAsObject(change structured.Change, attributes map[string]cty.Type) computed.Diff {

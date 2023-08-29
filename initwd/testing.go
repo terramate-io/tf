@@ -7,10 +7,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/registry"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/configs/configload"
+	"github.com/terramate-io/tf/registry"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // LoadConfigForTests is a convenience wrapper around configload.NewLoaderForTests,

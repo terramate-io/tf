@@ -12,12 +12,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/hashicorp/terraform/addrs"
-	viewsjson "github.com/hashicorp/terraform/command/views/json"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/terminal"
-	"github.com/hashicorp/terraform/tfdiags"
-	tfversion "github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/addrs"
+	viewsjson "github.com/terramate-io/tf/command/views/json"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/terminal"
+	"github.com/terramate-io/tf/tfdiags"
+	tfversion "github.com/terramate-io/tf/version"
 )
 
 // Calling NewJSONView should also always output a version message, which is a

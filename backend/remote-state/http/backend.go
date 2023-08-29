@@ -16,11 +16,11 @@ import (
 
 	"github.com/hashicorp/go-retryablehttp"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/legacy/helper/schema"
-	"github.com/hashicorp/terraform/logging"
-	"github.com/hashicorp/terraform/states/remote"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/legacy/helper/schema"
+	"github.com/terramate-io/tf/logging"
+	"github.com/terramate-io/tf/states/remote"
+	"github.com/terramate-io/tf/states/statemgr"
 )
 
 func New() backend.Backend {

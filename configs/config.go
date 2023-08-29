@@ -11,9 +11,9 @@ import (
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/depsfile"
-	"github.com/hashicorp/terraform/getproviders"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/depsfile"
+	"github.com/terramate-io/tf/getproviders"
 )
 
 // A Config is a node in the tree of modules within a configuration.

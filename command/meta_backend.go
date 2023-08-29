@@ -22,20 +22,20 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/cloud"
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/command/views"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/cloud"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/clistate"
+	"github.com/terramate-io/tf/command/views"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 
-	backendInit "github.com/hashicorp/terraform/backend/init"
-	backendLocal "github.com/hashicorp/terraform/backend/local"
-	legacy "github.com/hashicorp/terraform/legacy/terraform"
+	backendInit "github.com/terramate-io/tf/backend/init"
+	backendLocal "github.com/terramate-io/tf/backend/local"
+	legacy "github.com/terramate-io/tf/legacy/terraform"
 )
 
 // BackendOpts are the options used to initialize a backend.Backend.

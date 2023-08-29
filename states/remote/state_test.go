@@ -13,11 +13,11 @@ import (
 	"github.com/zclconf/go-cty/cty"
 
 	tfaddr "github.com/hashicorp/terraform-registry-address"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/version"
 )
 
 func TestState_impl(t *testing.T) {

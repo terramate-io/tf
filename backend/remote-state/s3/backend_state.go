@@ -14,10 +14,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/s3"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/remote"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/remote"
+	"github.com/terramate-io/tf/states/statemgr"
 )
 
 func (b *Backend) Workspaces() ([]string, error) {

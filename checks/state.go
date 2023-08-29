@@ -8,8 +8,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs"
 )
 
 // State is a container for state tracking of all of the the checks declared in

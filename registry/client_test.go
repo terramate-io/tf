@@ -13,10 +13,10 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/httpclient"
-	"github.com/hashicorp/terraform/registry/regsrc"
-	"github.com/hashicorp/terraform/registry/test"
-	tfversion "github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/httpclient"
+	"github.com/terramate-io/tf/registry/regsrc"
+	"github.com/terramate-io/tf/registry/test"
+	tfversion "github.com/terramate-io/tf/version"
 )
 
 func TestConfigureDiscoveryRetry(t *testing.T) {

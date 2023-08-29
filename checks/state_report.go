@@ -6,7 +6,7 @@ package checks
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 )
 
 // These are the "Report"-prefixed methods of Checks used by Terraform Core

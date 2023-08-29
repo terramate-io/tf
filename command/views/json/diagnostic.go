@@ -14,8 +14,8 @@ import (
 	"github.com/hashicorp/hcl/v2/hcled"
 	"github.com/hashicorp/hcl/v2/hclparse"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/lang/marks"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/lang/marks"
+	"github.com/terramate-io/tf/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

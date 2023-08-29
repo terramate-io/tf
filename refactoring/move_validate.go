@@ -10,11 +10,11 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/instances"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/dag"
+	"github.com/terramate-io/tf/instances"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // ValidateMoves tests whether all of the given move statements comply with

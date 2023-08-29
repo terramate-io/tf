@@ -14,10 +14,10 @@ import (
 	"github.com/zclconf/go-cty/cty/convert"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/repl"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/repl"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // The Output view renders either one or all outputs, depending on whether or

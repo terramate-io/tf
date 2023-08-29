@@ -13,17 +13,17 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"golang.org/x/exp/slices"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/views"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/logging"
-	"github.com/hashicorp/terraform/moduletest"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/views"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/logging"
+	"github.com/terramate-io/tf/moduletest"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 const (

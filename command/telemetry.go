@@ -8,5 +8,5 @@ import (
 var tracer trace.Tracer
 
 func init() {
-	tracer = otel.Tracer("github.com/hashicorp/terraform/command")
+	tracer = otel.Tracer("github.com/terramate-io/tf/command")
 }

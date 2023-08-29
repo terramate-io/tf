@@ -10,12 +10,12 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/initwd"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/registry"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs/configload"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/initwd"
+	"github.com/terramate-io/tf/providers"
+	"github.com/terramate-io/tf/registry"
 )
 
 func testAnalyzer(t *testing.T, fixtureName string) *Analyzer {

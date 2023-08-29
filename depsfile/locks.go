@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/getproviders"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/getproviders"
 )
 
 // Locks is the top-level type representing the information retained in a

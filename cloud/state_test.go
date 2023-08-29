@@ -11,11 +11,11 @@ import (
 	"time"
 
 	tfe "github.com/hashicorp/go-tfe"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend/local"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/backend/local"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/states/statemgr"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -6,7 +6,7 @@ package lang
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/lang/funcs"
+	"github.com/terramate-io/tf/lang/funcs"
 )
 
 func TestFunctionDescriptions(t *testing.T) {

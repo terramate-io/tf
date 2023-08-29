@@ -15,15 +15,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/backend/remote"
-	"github.com/hashicorp/terraform/cloud"
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/command/views"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/backend/remote"
+	"github.com/terramate-io/tf/cloud"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/clistate"
+	"github.com/terramate-io/tf/command/views"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/terraform"
 )
 
 type backendMigrateOpts struct {

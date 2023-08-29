@@ -23,10 +23,10 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	svcauth "github.com/hashicorp/terraform-svchost/auth"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/httpclient"
-	"github.com/hashicorp/terraform/logging"
-	"github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/httpclient"
+	"github.com/terramate-io/tf/logging"
+	"github.com/terramate-io/tf/version"
 )
 
 const (

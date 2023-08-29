@@ -9,11 +9,11 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/depsfile"
-	"github.com/hashicorp/terraform/getproviders"
-	"github.com/hashicorp/terraform/providercache"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/depsfile"
+	"github.com/terramate-io/tf/getproviders"
+	"github.com/terramate-io/tf/providercache"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 type providersLockChangeType string

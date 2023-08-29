@@ -3,7 +3,7 @@ package json
 import (
 	"strings"
 
-	"github.com/hashicorp/terraform/moduletest"
+	"github.com/terramate-io/tf/moduletest"
 )
 
 type TestSuiteAbstract map[string][]string

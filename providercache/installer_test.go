@@ -21,9 +21,9 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/depsfile"
-	"github.com/hashicorp/terraform/getproviders"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/depsfile"
+	"github.com/terramate-io/tf/getproviders"
 )
 
 func TestEnsureProviderVersions(t *testing.T) {

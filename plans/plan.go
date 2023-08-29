@@ -9,10 +9,10 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/lang/globalref"
-	"github.com/hashicorp/terraform/states"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/lang/globalref"
+	"github.com/terramate-io/tf/states"
 )
 
 // Plan is the top-level type representing a planned set of changes.

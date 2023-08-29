@@ -12,9 +12,9 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/experiments"
-	"github.com/hashicorp/terraform/lang/marks"
 	homedir "github.com/mitchellh/go-homedir"
+	"github.com/terramate-io/tf/experiments"
+	"github.com/terramate-io/tf/lang/marks"
 	"github.com/zclconf/go-cty/cty"
 )
 

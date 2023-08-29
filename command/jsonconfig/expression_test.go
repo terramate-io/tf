@@ -13,7 +13,7 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/hashicorp/hcl/v2/hcltest"
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/terramate-io/tf/configs/configschema"
 )
 
 func TestMarshalExpressions(t *testing.T) {

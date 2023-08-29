@@ -4,7 +4,7 @@
 package arguments
 
 import (
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // Refresh represents the command-line arguments for the apply command.

@@ -6,8 +6,8 @@ package jsonprovider
 import (
 	"encoding/json"
 
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/terramate-io/tf/providers"
+	"github.com/terramate-io/tf/terraform"
 )
 
 // FormatVersion represents the version of the json format and will be

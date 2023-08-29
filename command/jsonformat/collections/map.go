@@ -4,8 +4,8 @@
 package collections
 
 import (
-	"github.com/hashicorp/terraform/command/jsonformat/computed"
-	"github.com/hashicorp/terraform/plans"
+	"github.com/terramate-io/tf/command/jsonformat/computed"
+	"github.com/terramate-io/tf/plans"
 )
 
 type ProcessKey func(key string) computed.Diff

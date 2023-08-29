@@ -10,15 +10,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/backend/local"
-	"github.com/hashicorp/terraform/backend/remote-state/inmem"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
 	"github.com/mitchellh/cli"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/backend/local"
+	"github.com/terramate-io/tf/backend/remote-state/inmem"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statemgr"
 
-	legacy "github.com/hashicorp/terraform/legacy/terraform"
+	legacy "github.com/terramate-io/tf/legacy/terraform"
 )
 
 func TestWorkspace_createAndChange(t *testing.T) {

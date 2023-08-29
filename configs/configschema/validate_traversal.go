@@ -11,8 +11,8 @@ import (
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/didyoumean"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/didyoumean"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // StaticValidateTraversal checks whether the given traversal (which must be

@@ -10,12 +10,12 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/hashicorp/terraform/configs/hcl2shim"
-	"github.com/hashicorp/terraform/provisioners"
-	proto "github.com/hashicorp/terraform/tfplugin5"
+	"github.com/terramate-io/tf/configs/hcl2shim"
+	"github.com/terramate-io/tf/provisioners"
+	proto "github.com/terramate-io/tf/tfplugin5"
 	"github.com/zclconf/go-cty/cty"
 
-	mockproto "github.com/hashicorp/terraform/plugin/mock_proto"
+	mockproto "github.com/terramate-io/tf/plugin/mock_proto"
 )
 
 var _ provisioners.Interface = (*GRPCProvisioner)(nil)

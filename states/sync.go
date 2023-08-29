@@ -7,8 +7,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/checks"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/checks"
 	"github.com/zclconf/go-cty/cty"
 )
 

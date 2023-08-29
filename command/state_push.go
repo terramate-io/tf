@@ -9,14 +9,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/command/views"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/mitchellh/cli"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/clistate"
+	"github.com/terramate-io/tf/command/views"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // StatePushCommand is a Command implementation that shows a single resource.

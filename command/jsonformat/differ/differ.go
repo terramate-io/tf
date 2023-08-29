@@ -4,8 +4,8 @@
 package differ
 
 import (
-	"github.com/hashicorp/terraform/command/jsonformat/computed"
-	"github.com/hashicorp/terraform/command/jsonformat/structured"
+	"github.com/terramate-io/tf/command/jsonformat/computed"
+	"github.com/terramate-io/tf/command/jsonformat/structured"
 )
 
 // asDiff is a helper function to abstract away some simple and common

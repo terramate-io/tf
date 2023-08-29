@@ -4,7 +4,7 @@
 package terraform
 
 import (
-	backendInit "github.com/hashicorp/terraform/backend/init"
+	backendInit "github.com/terramate-io/tf/backend/init"
 )
 
 func init() {

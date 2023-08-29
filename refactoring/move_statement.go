@@ -6,10 +6,10 @@ package refactoring
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 type MoveStatement struct {

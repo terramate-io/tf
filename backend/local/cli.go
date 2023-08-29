@@ -6,7 +6,7 @@ package local
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/backend"
+	"github.com/terramate-io/tf/backend"
 )
 
 // backend.CLI impl.

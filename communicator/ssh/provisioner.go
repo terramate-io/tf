@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/terraform/communicator/shared"
+	"github.com/terramate-io/tf/communicator/shared"
 	sshagent "github.com/xanzy/ssh-agent"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/gocty"

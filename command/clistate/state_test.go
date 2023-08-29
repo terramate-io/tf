@@ -6,10 +6,10 @@ package clistate
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/views"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terminal"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/views"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/terminal"
 )
 
 func TestUnlock(t *testing.T) {

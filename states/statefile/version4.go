@@ -13,11 +13,11 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/checks"
-	"github.com/hashicorp/terraform/lang/marks"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/checks"
+	"github.com/terramate-io/tf/lang/marks"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 func readStateV4(src []byte) (*File, tfdiags.Diagnostics) {

@@ -9,9 +9,9 @@ import (
 
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 type Output struct {

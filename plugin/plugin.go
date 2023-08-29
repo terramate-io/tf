@@ -5,7 +5,7 @@ package plugin
 
 import (
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/terraform/plugin6"
+	"github.com/terramate-io/tf/plugin6"
 )
 
 // VersionedPlugins includes both protocol 5 and 6 because this is the function

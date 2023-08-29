@@ -10,9 +10,9 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/zclconf/go-cty/cty/function"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/experiments"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/experiments"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 type ParseRef func(traversal hcl.Traversal) (*addrs.Reference, tfdiags.Diagnostics)

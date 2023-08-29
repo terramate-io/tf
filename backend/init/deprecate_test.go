@@ -6,7 +6,7 @@ package init
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/backend/remote-state/inmem"
+	"github.com/terramate-io/tf/backend/remote-state/inmem"
 	"github.com/zclconf/go-cty/cty"
 )
 

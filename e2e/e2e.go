@@ -13,10 +13,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/plans/planfile"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/plans/planfile"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statefile"
 )
 
 // Type binary represents the combination of a compiled binary

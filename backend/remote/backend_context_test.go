@@ -8,20 +8,20 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 
 	tfe "github.com/hashicorp/go-tfe"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/command/views"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/initwd"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terminal"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/clistate"
+	"github.com/terramate-io/tf/command/views"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/initwd"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/terminal"
 )
 
 func TestRemoteStoredVariableValue(t *testing.T) {

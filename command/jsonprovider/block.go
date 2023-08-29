@@ -4,7 +4,7 @@
 package jsonprovider
 
 import (
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/terramate-io/tf/configs/configschema"
 )
 
 type Block struct {

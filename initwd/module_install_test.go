@@ -20,14 +20,14 @@ import (
 	version "github.com/hashicorp/go-version"
 	svchost "github.com/hashicorp/terraform-svchost"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/copy"
-	"github.com/hashicorp/terraform/registry"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/configs/configload"
+	"github.com/terramate-io/tf/copy"
+	"github.com/terramate-io/tf/registry"
+	"github.com/terramate-io/tf/tfdiags"
 
-	_ "github.com/hashicorp/terraform/logging"
+	_ "github.com/terramate-io/tf/logging"
 )
 
 func TestMain(m *testing.M) {

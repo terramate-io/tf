@@ -14,16 +14,16 @@ import (
 	"strings"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/copy"
-	"github.com/hashicorp/terraform/getmodules"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/configs/configload"
+	"github.com/terramate-io/tf/copy"
+	"github.com/terramate-io/tf/getmodules"
 
 	version "github.com/hashicorp/go-version"
-	"github.com/hashicorp/terraform/modsdir"
-	"github.com/hashicorp/terraform/registry"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/modsdir"
+	"github.com/terramate-io/tf/registry"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 const initFromModuleRootCallName = "root"

@@ -6,7 +6,7 @@ package renderers
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/command/jsonformat/computed"
+	"github.com/terramate-io/tf/command/jsonformat/computed"
 )
 
 var _ computed.DiffRenderer = (*typeChangeRenderer)(nil)

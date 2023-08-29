@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/command/jsonformat/computed"
+	"github.com/terramate-io/tf/command/jsonformat/computed"
 )
 
 type evaluatedString struct {

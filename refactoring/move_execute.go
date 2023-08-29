@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/logging"
-	"github.com/hashicorp/terraform/states"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/dag"
+	"github.com/terramate-io/tf/logging"
+	"github.com/terramate-io/tf/states"
 )
 
 // ApplyMoves modifies in-place the given state object so that any existing

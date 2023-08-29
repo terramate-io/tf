@@ -6,7 +6,7 @@ package providers
 import (
 	"sync"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 )
 
 // SchemaCache is a global cache of Schemas.

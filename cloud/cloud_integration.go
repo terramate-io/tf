@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-tfe"
-	"github.com/hashicorp/terraform/backend"
 	"github.com/mitchellh/cli"
+	"github.com/terramate-io/tf/backend"
 )
 
 // IntegrationOutputWriter is an interface used to to write output tailored for

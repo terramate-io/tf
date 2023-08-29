@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/posener/complete"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 type WorkspaceListCommand struct {

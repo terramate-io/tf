@@ -10,7 +10,7 @@
 // structures have a consistent look and feel.
 package format
 
-import "github.com/hashicorp/terraform/plans"
+import "github.com/terramate-io/tf/plans"
 
 // DiffActionSymbol returns a string that, once passed through a
 // colorstring.Colorize, will produce a result that can be written

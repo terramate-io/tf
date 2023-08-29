@@ -14,12 +14,12 @@ import (
 
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/command/cliconfig"
-	oauthserver "github.com/hashicorp/terraform/command/testdata/login-oauth-server"
-	tfeserver "github.com/hashicorp/terraform/command/testdata/login-tfe-server"
-	"github.com/hashicorp/terraform/command/webbrowser"
-	"github.com/hashicorp/terraform/httpclient"
-	"github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/command/cliconfig"
+	oauthserver "github.com/terramate-io/tf/command/testdata/login-oauth-server"
+	tfeserver "github.com/terramate-io/tf/command/testdata/login-tfe-server"
+	"github.com/terramate-io/tf/command/webbrowser"
+	"github.com/terramate-io/tf/httpclient"
+	"github.com/terramate-io/tf/version"
 )
 
 func TestLogin(t *testing.T) {

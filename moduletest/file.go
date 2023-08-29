@@ -1,8 +1,8 @@
 package moduletest
 
 import (
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 type File struct {

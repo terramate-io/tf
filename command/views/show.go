@@ -8,17 +8,17 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/hashicorp/terraform/cloud/cloudplan"
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/jsonformat"
-	"github.com/hashicorp/terraform/command/jsonplan"
-	"github.com/hashicorp/terraform/command/jsonprovider"
-	"github.com/hashicorp/terraform/command/jsonstate"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/cloud/cloudplan"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/jsonformat"
+	"github.com/terramate-io/tf/command/jsonplan"
+	"github.com/terramate-io/tf/command/jsonprovider"
+	"github.com/terramate-io/tf/command/jsonstate"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 type Show interface {

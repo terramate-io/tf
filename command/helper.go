@@ -4,8 +4,8 @@
 package command
 
 import (
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/cloud"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/cloud"
 )
 
 const failedToLoadSchemasMessage = `

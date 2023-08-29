@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/terramate-io/tf/terraform"
 )
 
 func TestUIInput_impl(t *testing.T) {

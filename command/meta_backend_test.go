@@ -13,20 +13,20 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/copy"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
 	"github.com/mitchellh/cli"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/copy"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/states/statemgr"
 	"github.com/zclconf/go-cty/cty"
 
-	backendInit "github.com/hashicorp/terraform/backend/init"
-	backendLocal "github.com/hashicorp/terraform/backend/local"
-	backendInmem "github.com/hashicorp/terraform/backend/remote-state/inmem"
+	backendInit "github.com/terramate-io/tf/backend/init"
+	backendLocal "github.com/terramate-io/tf/backend/local"
+	backendInmem "github.com/terramate-io/tf/backend/remote-state/inmem"
 )
 
 // Test empty directory with no config/state creates a local state.

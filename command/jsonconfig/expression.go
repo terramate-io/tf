@@ -13,10 +13,10 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/lang"
-	"github.com/hashicorp/terraform/lang/blocktoattr"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/lang"
+	"github.com/terramate-io/tf/lang/blocktoattr"
 )
 
 // expression represents any unparsed expression

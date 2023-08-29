@@ -8,7 +8,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 )
 
 // Resource represents the state of a resource.

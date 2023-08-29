@@ -7,10 +7,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/format"
-	viewsjson "github.com/hashicorp/terraform/command/views/json"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/format"
+	viewsjson "github.com/terramate-io/tf/command/views/json"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // The Validate is used for the validate command.

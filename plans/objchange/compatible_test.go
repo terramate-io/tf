@@ -10,9 +10,9 @@ import (
 	"github.com/apparentlymart/go-dump/dump"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/lang/marks"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/lang/marks"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 func TestAssertObjectCompatible(t *testing.T) {

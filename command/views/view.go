@@ -4,11 +4,11 @@
 package views
 
 import (
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/format"
-	"github.com/hashicorp/terraform/terminal"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/mitchellh/colorstring"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/format"
+	"github.com/terramate-io/tf/terminal"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // View is the base layer for command views, encapsulating a set of I/O

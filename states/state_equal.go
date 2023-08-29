@@ -6,7 +6,7 @@ package states
 import (
 	"reflect"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 )
 
 // Equal returns true if the receiver is functionally equivalent to other,

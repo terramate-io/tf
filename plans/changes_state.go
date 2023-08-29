@@ -4,7 +4,7 @@
 package plans
 
 import (
-	"github.com/hashicorp/terraform/states"
+	"github.com/terramate-io/tf/states"
 )
 
 // PlannedState merges the set of changes described by the receiver into the

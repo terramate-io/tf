@@ -6,7 +6,7 @@ package statemgr
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/states/statefile"
+	"github.com/terramate-io/tf/states/statefile"
 )
 
 // Migrator is an optional interface implemented by state managers that

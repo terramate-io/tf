@@ -12,8 +12,8 @@ import (
 	awsbase "github.com/hashicorp/aws-sdk-go-base"
 	mockdata "github.com/hashicorp/aws-sdk-go-base"
 	servicemocks "github.com/hashicorp/aws-sdk-go-base"
-	"github.com/hashicorp/terraform/configs/hcl2shim"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/configs/hcl2shim"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 type DiagsValidator func(*testing.T, tfdiags.Diagnostics)

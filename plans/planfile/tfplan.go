@@ -12,14 +12,14 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/checks"
-	"github.com/hashicorp/terraform/lang/globalref"
-	"github.com/hashicorp/terraform/lang/marks"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/plans/internal/planproto"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/checks"
+	"github.com/terramate-io/tf/lang/globalref"
+	"github.com/terramate-io/tf/lang/marks"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/plans/internal/planproto"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/version"
 )
 
 const tfplanFormatVersion = 3

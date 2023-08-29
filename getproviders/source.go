@@ -6,7 +6,7 @@ package getproviders
 import (
 	"context"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/terramate-io/tf/addrs"
 )
 
 // A Source can query a particular source for information about providers

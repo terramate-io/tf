@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/legacy/helper/acctest"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/legacy/helper/acctest"
 )
 
 func TestBackend_impl(t *testing.T) {

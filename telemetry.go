@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/version"
 	"go.opentelemetry.io/contrib/exporters/autoexport"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"

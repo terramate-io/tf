@@ -19,9 +19,9 @@ import (
 	"unicode"
 
 	"github.com/bgentry/speakeasy"
-	"github.com/hashicorp/terraform/terraform"
 	"github.com/mattn/go-isatty"
 	"github.com/mitchellh/colorstring"
+	"github.com/terramate-io/tf/terraform"
 )
 
 var defaultInputReader io.Reader

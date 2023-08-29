@@ -5,7 +5,7 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 func TestCheckRuleDiagnosticExtra_WrapsExtra(t *testing.T) {

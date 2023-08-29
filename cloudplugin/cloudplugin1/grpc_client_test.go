@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hashicorp/terraform/cloudplugin/cloudproto1"
-	"github.com/hashicorp/terraform/cloudplugin/mock_cloudproto1"
+	"github.com/terramate-io/tf/cloudplugin/cloudproto1"
+	"github.com/terramate-io/tf/cloudplugin/mock_cloudproto1"
 )
 
 var mockError = "this is a mock error"

@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/jsonprovider"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/jsonprovider"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // ProvidersCommand is a Command implementation that prints out information

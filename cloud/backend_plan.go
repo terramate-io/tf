@@ -22,13 +22,13 @@ import (
 	tfe "github.com/hashicorp/go-tfe"
 	version "github.com/hashicorp/go-version"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/cloud/cloudplan"
-	"github.com/hashicorp/terraform/command/jsonformat"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/genconfig"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/cloud/cloudplan"
+	"github.com/terramate-io/tf/command/jsonformat"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/genconfig"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 var planConfigurationVersionsPollInterval = 500 * time.Millisecond

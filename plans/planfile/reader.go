@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/depsfile"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/configs/configload"
+	"github.com/terramate-io/tf/depsfile"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 const tfstateFilename = "tfstate"

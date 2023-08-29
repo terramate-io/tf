@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 
 // This test verifies that modules are sorted before resources:
-// https://github.com/hashicorp/terraform/issues/21552
+// https://github.com/terramate-io/tf/issues/21552
 func TestVersion4_sort(t *testing.T) {
 	resources := sortResourcesV4{
 		{

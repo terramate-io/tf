@@ -11,14 +11,14 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/command/views"
-	"github.com/hashicorp/terraform/initwd"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terminal"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/command/clistate"
+	"github.com/terramate-io/tf/command/views"
+	"github.com/terramate-io/tf/initwd"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/terminal"
 )
 
 func testOperationRefresh(t *testing.T, configDir string) (*backend.Operation, func(), func(*testing.T) *terminal.TestOutput) {

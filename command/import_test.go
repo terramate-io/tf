@@ -14,10 +14,10 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/copy"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/copy"
+	"github.com/terramate-io/tf/providers"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 func TestImport(t *testing.T) {

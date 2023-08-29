@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/hashicorp/terraform/command/jsonformat/computed"
+	"github.com/terramate-io/tf/command/jsonformat/computed"
 
-	"github.com/hashicorp/terraform/plans"
+	"github.com/terramate-io/tf/plans"
 )
 
 var (

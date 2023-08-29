@@ -8,11 +8,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/cloud"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/remote"
-	"github.com/hashicorp/terraform/states/statefile"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/cloud"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/remote"
+	"github.com/terramate-io/tf/states/statefile"
 )
 
 func TestRemoteClient_impl(t *testing.T) {

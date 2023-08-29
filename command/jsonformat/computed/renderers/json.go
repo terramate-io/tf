@@ -6,9 +6,9 @@ package renderers
 import (
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/command/jsonformat/computed"
-	"github.com/hashicorp/terraform/command/jsonformat/jsondiff"
-	"github.com/hashicorp/terraform/plans"
+	"github.com/terramate-io/tf/command/jsonformat/computed"
+	"github.com/terramate-io/tf/command/jsonformat/jsondiff"
+	"github.com/terramate-io/tf/plans"
 )
 
 // RendererJsonOpts creates a jsondiff.JsonOpts object that returns the correct

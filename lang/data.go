@@ -6,8 +6,8 @@ package lang
 import (
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // Data is an interface whose implementations can provide cty.Value

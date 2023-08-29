@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/command/arguments"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terminal"
+	"github.com/terramate-io/tf/command/arguments"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/terminal"
 	"github.com/zclconf/go-cty/cty"
 )
 

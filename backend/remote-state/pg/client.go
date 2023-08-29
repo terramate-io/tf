@@ -9,9 +9,9 @@ import (
 	"fmt"
 
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/terraform/states/remote"
-	"github.com/hashicorp/terraform/states/statemgr"
 	_ "github.com/lib/pq"
+	"github.com/terramate-io/tf/states/remote"
+	"github.com/terramate-io/tf/states/statemgr"
 )
 
 // RemoteClient is a remote client that stores data in a Postgres database

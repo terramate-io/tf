@@ -6,7 +6,7 @@ package computed
 import (
 	"github.com/mitchellh/colorstring"
 
-	"github.com/hashicorp/terraform/plans"
+	"github.com/terramate-io/tf/plans"
 )
 
 // Diff captures the computed diff for a single block, element or attribute.

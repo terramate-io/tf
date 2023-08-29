@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hashicorp/terraform/e2e"
+	"github.com/terramate-io/tf/e2e"
 )
 
 var terraformBin string
@@ -48,7 +48,7 @@ func setup() func() {
 		return func() {}
 	}
 
-	tmpFilename := e2e.GoBuild("github.com/hashicorp/terraform", "terraform")
+	tmpFilename := e2e.GoBuild("github.com/terramate-io/tf", "terraform")
 
 	// Make the executable available for use in tests
 	terraformBin = tmpFilename

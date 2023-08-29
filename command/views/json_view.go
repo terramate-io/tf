@@ -9,9 +9,9 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/terraform/command/views/json"
-	"github.com/hashicorp/terraform/tfdiags"
-	tfversion "github.com/hashicorp/terraform/version"
+	"github.com/terramate-io/tf/command/views/json"
+	"github.com/terramate-io/tf/tfdiags"
+	tfversion "github.com/terramate-io/tf/version"
 )
 
 // This version describes the schema of JSON UI messages. This version must be

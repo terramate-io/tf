@@ -4,7 +4,7 @@
 package cloudplan
 
 import (
-	"github.com/hashicorp/terraform/plans"
+	"github.com/terramate-io/tf/plans"
 )
 
 // RemotePlanJSON is a wrapper struct that associates a pre-baked JSON plan with

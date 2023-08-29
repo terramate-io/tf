@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hashicorp/terraform/command/views"
-	"github.com/hashicorp/terraform/helper/slowmessage"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/command/views"
+	"github.com/terramate-io/tf/helper/slowmessage"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 const (

@@ -9,11 +9,11 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/hashicorp/terraform/communicator/shared"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/plugin/convert"
-	"github.com/hashicorp/terraform/provisioners"
-	"github.com/hashicorp/terraform/tfplugin5"
+	"github.com/terramate-io/tf/communicator/shared"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/plugin/convert"
+	"github.com/terramate-io/tf/provisioners"
+	"github.com/terramate-io/tf/tfplugin5"
 )
 
 // New wraps a provisioners.Interface to implement a grpc ProviderServer.

@@ -11,9 +11,9 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states"
 )
 
 func TestGraph(t *testing.T) {

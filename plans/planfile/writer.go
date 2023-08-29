@@ -9,10 +9,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/depsfile"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states/statefile"
+	"github.com/terramate-io/tf/configs/configload"
+	"github.com/terramate-io/tf/depsfile"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/states/statefile"
 )
 
 type CreateArgs struct {

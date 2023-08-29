@@ -6,10 +6,10 @@ package collections
 import (
 	"reflect"
 
-	"github.com/hashicorp/terraform/command/jsonformat/computed"
+	"github.com/terramate-io/tf/command/jsonformat/computed"
 
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/plans/objchange"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/plans/objchange"
 )
 
 type TransformIndices func(before, after int) computed.Diff

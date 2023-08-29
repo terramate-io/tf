@@ -12,10 +12,10 @@ import (
 	"bytes"
 	"crypto/md5"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/states/remote"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/states/remote"
+	"github.com/terramate-io/tf/states/statefile"
+	"github.com/terramate-io/tf/states/statemgr"
 )
 
 // NOTE: Before running this testcase, please create a OTS instance called 'tf-oss-remote'

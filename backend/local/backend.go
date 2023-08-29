@@ -14,13 +14,13 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/views"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/logging"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/command/views"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/logging"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/terraform"
+	"github.com/terramate-io/tf/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

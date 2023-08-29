@@ -13,8 +13,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/terraform/states/remote"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/terramate-io/tf/states/remote"
+	"github.com/terramate-io/tf/states/statemgr"
 	"github.com/tombuildsstuff/giovanni/storage/2018-11-09/blob/blobs"
 )
 

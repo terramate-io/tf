@@ -4,7 +4,7 @@
 package structured
 
 import (
-	"github.com/hashicorp/terraform/command/jsonformat/structured/attribute_path"
+	"github.com/terramate-io/tf/command/jsonformat/structured/attribute_path"
 )
 
 // ChangeMap is a Change that represents a Map or an Object type, and has

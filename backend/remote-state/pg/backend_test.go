@@ -4,7 +4,7 @@
 package pg
 
 // Create the test database: createdb terraform_backend_pg_test
-// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/hashicorp/terraform/backend/remote-state/pg
+// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/terramate-io/tf/backend/remote-state/pg
 
 import (
 	"database/sql"
@@ -15,11 +15,11 @@ import (
 	"testing"
 
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/states/remote"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/lib/pq"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/states/remote"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // Function to skip a test unless in ACCeptance test mode.

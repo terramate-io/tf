@@ -14,15 +14,15 @@ import (
 
 	plugin "github.com/hashicorp/go-plugin"
 
-	"github.com/hashicorp/terraform/addrs"
-	terraformProvider "github.com/hashicorp/terraform/builtin/providers/terraform"
-	"github.com/hashicorp/terraform/getproviders"
-	"github.com/hashicorp/terraform/logging"
-	tfplugin "github.com/hashicorp/terraform/plugin"
-	tfplugin6 "github.com/hashicorp/terraform/plugin6"
-	"github.com/hashicorp/terraform/providercache"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/addrs"
+	terraformProvider "github.com/terramate-io/tf/builtin/providers/terraform"
+	"github.com/terramate-io/tf/getproviders"
+	"github.com/terramate-io/tf/logging"
+	tfplugin "github.com/terramate-io/tf/plugin"
+	tfplugin6 "github.com/terramate-io/tf/plugin6"
+	"github.com/terramate-io/tf/providercache"
+	"github.com/terramate-io/tf/providers"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // The TF_DISABLE_PLUGIN_TLS environment variable is intended only for use by

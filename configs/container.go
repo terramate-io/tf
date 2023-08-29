@@ -3,7 +3,7 @@
 
 package configs
 
-import "github.com/hashicorp/terraform/addrs"
+import "github.com/terramate-io/tf/addrs"
 
 // Container provides an interface for scoped resources.
 //

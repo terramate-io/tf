@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/registry"
 	"github.com/spf13/afero"
+	"github.com/terramate-io/tf/configs"
+	"github.com/terramate-io/tf/registry"
 )
 
 // A Loader instance is the main entry-point for loading configurations via

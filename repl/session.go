@@ -12,10 +12,10 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/lang"
-	"github.com/hashicorp/terraform/lang/marks"
-	"github.com/hashicorp/terraform/lang/types"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/lang"
+	"github.com/terramate-io/tf/lang/marks"
+	"github.com/terramate-io/tf/lang/types"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 // Session represents the state for a single REPL session.

@@ -10,11 +10,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/hashicorp/terraform/communicator"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/provisioners"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/mitchellh/go-homedir"
+	"github.com/terramate-io/tf/communicator"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/provisioners"
+	"github.com/terramate-io/tf/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/legacy/helper/acctest"
-	"github.com/hashicorp/terraform/states/remote"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/legacy/helper/acctest"
+	"github.com/terramate-io/tf/states/remote"
 	"github.com/tombuildsstuff/giovanni/storage/2018-11-09/blob/blobs"
 )
 

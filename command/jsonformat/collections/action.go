@@ -3,7 +3,7 @@
 
 package collections
 
-import "github.com/hashicorp/terraform/plans"
+import "github.com/terramate-io/tf/plans"
 
 // CompareActions will compare current and next, and return plans.Update if they
 // are different, and current if they are the same.

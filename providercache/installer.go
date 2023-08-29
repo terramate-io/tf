@@ -12,10 +12,10 @@ import (
 
 	"github.com/apparentlymart/go-versions/versions"
 
-	"github.com/hashicorp/terraform/addrs"
-	copydir "github.com/hashicorp/terraform/copy"
-	"github.com/hashicorp/terraform/depsfile"
-	"github.com/hashicorp/terraform/getproviders"
+	"github.com/terramate-io/tf/addrs"
+	copydir "github.com/terramate-io/tf/copy"
+	"github.com/terramate-io/tf/depsfile"
+	"github.com/terramate-io/tf/getproviders"
 )
 
 // Installer is the main type in this package, representing a provider installer

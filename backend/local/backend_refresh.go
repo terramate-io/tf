@@ -9,11 +9,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/logging"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/terramate-io/tf/backend"
+	"github.com/terramate-io/tf/logging"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/states/statemgr"
+	"github.com/terramate-io/tf/tfdiags"
 )
 
 func (b *Local) opRefresh(

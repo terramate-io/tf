@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/terraform/communicator/remote"
-	"github.com/hashicorp/terraform/provisioners"
 	"github.com/masterzen/winrm"
 	"github.com/packer-community/winrmcp/winrmcp"
+	"github.com/terramate-io/tf/communicator/remote"
+	"github.com/terramate-io/tf/provisioners"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -8,10 +8,10 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/experiments"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/experiments"
 
-	tfversion "github.com/hashicorp/terraform/version"
+	tfversion "github.com/terramate-io/tf/version"
 )
 
 // Module is a container for a set of configuration constructs that are
@@ -343,7 +343,7 @@ func (m *Module) appendFile(file *File) hcl.Diagnostics {
 		} else {
 			// an invalid resource name (for e.g. "null resource" instead of
 			// "null_resource") can cause a panic down the line in addrs:
-			// https://github.com/hashicorp/terraform/issues/25560
+			// https://github.com/terramate-io/tf/issues/25560
 			implied, err := addrs.ParseProviderPart(r.Addr().ImpliedProvider())
 			if err == nil {
 				r.Provider = m.ImpliedProviderForUnqualifiedType(implied)
@@ -405,7 +405,7 @@ func (m *Module) appendFile(file *File) hcl.Diagnostics {
 		} else {
 			// an invalid data source name (for e.g. "null resource" instead of
 			// "null_resource") can cause a panic down the line in addrs:
-			// https://github.com/hashicorp/terraform/issues/25560
+			// https://github.com/terramate-io/tf/issues/25560
 			implied, err := addrs.ParseProviderPart(r.Addr().ImpliedProvider())
 			if err == nil {
 				r.Provider = m.ImpliedProviderForUnqualifiedType(implied)

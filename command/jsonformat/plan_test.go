@@ -12,19 +12,19 @@ import (
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/command/jsonformat/differ"
-	"github.com/hashicorp/terraform/command/jsonformat/structured"
-	"github.com/hashicorp/terraform/command/jsonformat/structured/attribute_path"
-	"github.com/hashicorp/terraform/command/jsonplan"
-	"github.com/hashicorp/terraform/command/jsonprovider"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/lang/marks"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terminal"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/terramate-io/tf/addrs"
+	"github.com/terramate-io/tf/command/jsonformat/differ"
+	"github.com/terramate-io/tf/command/jsonformat/structured"
+	"github.com/terramate-io/tf/command/jsonformat/structured/attribute_path"
+	"github.com/terramate-io/tf/command/jsonplan"
+	"github.com/terramate-io/tf/command/jsonprovider"
+	"github.com/terramate-io/tf/configs/configschema"
+	"github.com/terramate-io/tf/lang/marks"
+	"github.com/terramate-io/tf/plans"
+	"github.com/terramate-io/tf/providers"
+	"github.com/terramate-io/tf/states"
+	"github.com/terramate-io/tf/terminal"
+	"github.com/terramate-io/tf/terraform"
 )
 
 func TestRenderHuman_EmptyPlan(t *testing.T) {
@@ -1651,7 +1651,7 @@ func TestResourceChange_JSON(t *testing.T) {
 
 func TestResourceChange_listObject(t *testing.T) {
 	testCases := map[string]testCase{
-		// https://github.com/hashicorp/terraform/issues/30641
+		// https://github.com/terramate-io/tf/issues/30641
 		"updating non-identifying attribute": {
 			Action: plans.Update,
 			Mode:   addrs.ManagedResourceMode,

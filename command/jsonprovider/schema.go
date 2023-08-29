@@ -4,7 +4,7 @@
 package jsonprovider
 
 import (
-	"github.com/hashicorp/terraform/providers"
+	"github.com/terramate-io/tf/providers"
 )
 
 type Schema struct {
